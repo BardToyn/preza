@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.section__disclaimer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242424;
+}
+
+.section__content {
+    width: 550px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+
+.section__disclaimer-title {
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    font-size: 92px;
+    color: #ab1616;
+}
+
+.section__disclaimer-text {
+    color: #f5f5f5;
+}
+
+.section__title {
+    padding: 50px;
+    background: no-repeat url(../static/okeany.-glubina-5-1.webp);
+}
+
+.section__title-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section__title-img {
+    width: 550px;
+}
+
+.section__title-title {
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: rainbow 20s ease infinite;
+    animation: rainbow 20s ease infinite;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+@-webkit-keyframes rainbow {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+@keyframes rainbow {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
+
+.section__title-text {
+    width: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.section__smeta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: no-repeat url(../static/107e1bes-1920.jpg) center / cover;
+}
+
+.section__smeta-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    color: #fff;
+}
+
+.section__time {
+    text-align: center;
+}
+
+.section__time-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 92px;
+    text-transform: uppercase;
+}
+
+.section__system {
+    text-align: center;
+    background-color: #ab1616;
+}
+
+.section__system-title {
+    font-family: "Oswald", sans-serif;
+    font-size: 92px;
+    color: #fff;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.section__start {
+    text-align: center;
+    background-color: #000;
+}
+
+.section__start-title {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-size: 92px;
+    text-transform: uppercase;
+}
+
+.section__end {
+    padding: 50px;
+}
+
+.section__end-title {
+    color: #000;
+    font-family: "Inter";
+    font-size: 64px;
+}
+
+.section__end-text {
+    color: #000;
+    font-family: "Inter";
+    font-size: 32px;
+}
